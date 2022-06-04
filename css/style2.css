@@ -1,0 +1,182 @@
+.head{
+    background: url('images/bg2.jpg');
+    background-size: cover;
+    padding: 5px 5px;
+    padding-top: 40px;
+}
+
+.navbar{
+    background-color: black;
+    opacity: 90%;
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+    z-index: 10000;
+}
+
+.navbar-collapse{
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-collapse a{
+    margin: 0px 8px;
+    color: white;
+    font-family: 'roboto mono';
+    font-weight: 300;
+}
+
+.navbar-collapse a:hover{
+    color: #b7b7b7;
+    transform: scale(1.1,1.1);
+    transition: 0.7s;
+}
+
+.navbar-collapse a:active{
+    color: #b7b7b7;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    padding-left: 250px;
+}
+
+.photo img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 15px #000000;
+}
+
+.intro{
+    padding-top: 200px;
+}
+
+.intro h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'roboto mono'
+}
+
+.intro p{
+    color: rgb(221, 221, 221);
+    font-family: 'Exo 2';
+    font-size: 20px;
+}
+
+.skills{
+    background: url('images/bg3.jpg');
+    background-size: cover;
+}
+
+.skill-set{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-set h1{
+    font-size: 25px;
+    font-family: 'Exo 2';
+    font-weight: bold;
+}
+
+.img-tech{
+    padding-top: 0 px;
+    padding-left: 150px;
+}
+
+.skill-set img{
+    max-width: 100%;
+    height: auto;
+}
+
+.col-lg-6.skill-desc{
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.col-lg-6.skill-desc h1{
+    font-family: 'Calibri';
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.col-lg-6.skill-desc li{
+    font-family: 'roboto mono';
+    font-size: 20px;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+.col-lg-6.skill-desc a{
+    color: black;
+    text-decoration: none;
+}
+
+.col-lg-6.skill-desc ul{
+    margin: 0px 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-6.skill-desc img{
+    margin: 0%;
+    max-width: 20%;
+    height: auto;
+}
+
+.social {
+    background: url('images/bg2.jpg');
+    background-size: cover;
+    background-color: #A6F6F1;
+    padding: 0px 250px;
+}
+
+.social-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 80px;
+}
+
+.heading{
+    color: white;
+    font-family: 'roboto mono';
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.social-logo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contact{
+    background: url('images/bg3.jpg');
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact p{
+    font-family: 'roboto mono';
+    font-size: 25px;
+}
